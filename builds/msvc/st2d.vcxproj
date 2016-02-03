@@ -19,21 +19,27 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\include\Animation.h" />
     <ClInclude Include="..\..\include\Device.h" />
     <ClInclude Include="..\..\include\Enum.h" />
     <ClInclude Include="..\..\include\ErrCode.h" />
-    <ClInclude Include="..\..\include\DeviceImpl.h" />
     <ClInclude Include="..\..\include\Graphics.h" />
-    <ClInclude Include="..\..\include\Graphics2DImpl.h" />
-    <ClInclude Include="..\..\include\GraphicsImpl.h" />
-    <ClInclude Include="..\..\include\Vertex.h" />
+    <ClInclude Include="..\..\include\Texture.h" />
+    <ClInclude Include="..\..\include\RenderList.h" />
     <ClInclude Include="..\..\include\Window.h" />
-    <ClInclude Include="..\..\include\WindowImpl.h" />
+    <ClInclude Include="..\..\src\DeviceImpl.h" />
+    <ClInclude Include="..\..\src\Graphics2DImpl.h" />
+    <ClInclude Include="..\..\src\GraphicsImpl.h" />
+    <ClInclude Include="..\..\src\RenderListImpl.h" />
+    <ClInclude Include="..\..\src\TextureImpl.h" />
+    <ClInclude Include="..\..\src\WindowImpl.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\include\DeviceImpl.cpp" />
-    <ClCompile Include="..\..\include\Graphics2DImpl.cpp" />
-    <ClCompile Include="..\..\include\WindowImpl.cpp" />
+    <ClCompile Include="..\..\src\DeviceImpl.cpp" />
+    <ClCompile Include="..\..\src\Graphics2DImpl.cpp" />
+    <ClCompile Include="..\..\src\RenderListImpl.cpp" />
+    <ClCompile Include="..\..\src\TextureImpl.cpp" />
+    <ClCompile Include="..\..\src\WindowImpl.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9A5B3A7A-E6C7-4DC4-B3ED-5659354ECBA9}</ProjectGuid>

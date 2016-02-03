@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClInclude Include="..\..\include\WindowImpl.h" />
-    <ClInclude Include="..\..\include\DeviceImpl.h" />
-    <ClInclude Include="..\..\include\GraphicsImpl.h" />
-    <ClInclude Include="..\..\include\Graphics2DImpl.h" />
     <ClInclude Include="..\..\include\Device.h">
       <Filter>interface</Filter>
     </ClInclude>
@@ -20,16 +16,32 @@
     <ClInclude Include="..\..\include\Window.h">
       <Filter>interface</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\include\Vertex.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\include\WindowImpl.cpp" />
-    <ClCompile Include="..\..\include\DeviceImpl.cpp" />
-    <ClCompile Include="..\..\include\Graphics2DImpl.cpp" />
+    <ClInclude Include="..\..\src\DeviceImpl.h" />
+    <ClInclude Include="..\..\src\Graphics2DImpl.h" />
+    <ClInclude Include="..\..\src\GraphicsImpl.h" />
+    <ClInclude Include="..\..\src\WindowImpl.h" />
+    <ClInclude Include="..\..\src\RenderListImpl.h" />
+    <ClInclude Include="..\..\src\TextureImpl.h" />
+    <ClInclude Include="..\..\include\Texture.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RenderList.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Animation.h">
+      <Filter>interface</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="interface">
       <UniqueIdentifier>{47271515-6967-4640-807d-5d8f7ea9c4ca}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\DeviceImpl.cpp" />
+    <ClCompile Include="..\..\src\Graphics2DImpl.cpp" />
+    <ClCompile Include="..\..\src\WindowImpl.cpp" />
+    <ClCompile Include="..\..\src\RenderListImpl.cpp" />
+    <ClCompile Include="..\..\src\TextureImpl.cpp" />
   </ItemGroup>
 </Project>

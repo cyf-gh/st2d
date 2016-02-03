@@ -7,10 +7,11 @@
 #include <core\Def.h>
 #include <utils\Maths.h>
 
-#include "Enum.h"
+#include "..\include\Enum.h"
 #include "..\include\Device.h"
 
 class stStrA;
+class stStrW;
 class stTexture;
 
 namespace st2dImpl {

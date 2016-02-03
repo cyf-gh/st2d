@@ -1,6 +1,7 @@
 #ifndef __ST2D_WINDOW_H__
 #define __ST2D_WINDOW_H__
 
+#include <core\Def.h>
 #include <core\Event.h>
 
 ST_EVENT_START_IMPL

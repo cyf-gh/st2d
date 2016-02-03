@@ -8,6 +8,8 @@
 #include <utils\Maths.h>
 
 #include "Vertex.h"
+#include "Texture.h"
+#include "Animation.h"
 
 namespace st2d {
 

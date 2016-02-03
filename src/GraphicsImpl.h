@@ -1,7 +1,7 @@
 #ifndef __ST2D_GRAPHICSIMPL_H__
 #define __ST2D_GRAPHICSIMPL_H__
 
-#include "ErrCode.h"
+#include "..\include\ErrCode.h"
 #include "..\include\Device.h"
 #include "..\include\Graphics.h"
 

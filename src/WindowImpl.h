@@ -6,7 +6,7 @@
 #include <core\Def.h>
 #include <utils\Maths.h>
 
-#include "Window.h"
+#include "..\include\Window.h"
 
 class stStrW;
 
@@ -17,7 +17,8 @@ class WindowClass {
 	friend class WindowImpl;
 
 private:
-	static std::unordered_map<HWND, WindowImpl*> s_wins;
+	static std::unordered_map<HWND, WindowImpl*> 
+										s_wins;
 	static LRESULT CALLBACK				bump( HWND handle, UINT msg, WPARAM wp, LPARAM lp );
 
 public:
@@ -51,7 +52,7 @@ public:
 	WindowImpl &						SetTitle( const stStrW &text );
 	WindowImpl &						SetStyle( const un32 style );
 	WindowImpl &						SetTopMost( bool isTop = true );
-										WindowImpl( HWND handle, const stStrW &title, const stRect &rect, const un32 style  );
+										WindowImpl( HWND handle, const stStrW &title, const stLibUtils::Maths::stRect &rect, const un32 style  );
 	virtual								~WindowImpl();
 };
 
